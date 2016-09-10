@@ -38,13 +38,16 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Users', 'url' => ['/user/admin/index'], 'visible' => Yii::$app->user->can('administer')],
             Yii::$app->user->isGuest ?
                 ['label' => 'Sign in', 'url' => ['/user/security/login']] :
                 ['label' => 'Sign out (' . Yii::$app->user->identity->username . ')',
                     'url' => ['/user/security/logout'],
                     'linkOptions' => ['data-method' => 'post']],
                     ['label' => 'Account', 'url' => ['/user/settings/account'], 'visible' => !Yii::$app->user->isGuest],
-                    ['label' => 'Profile', 'url' => ['/user/settings/profile'], 'visible' => !Yii::$app->user->isGuest]
+                    ['label' => 'Profile', 'url' => ['/user/settings/profile'], 'visible' => !Yii::$app->user->isGuest],
+                    ['label' => 'Social networks', 'url' => ['/user/settings/networks'], 'visible' => !Yii::$app->user->isGuest],
+
         ],
     ]);
     NavBar::end();

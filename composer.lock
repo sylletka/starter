@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "28fd9a993edd9ff677813c2165a3f391",
-    "content-hash": "d560f54e1a36328d127231837c8bc6df",
+    "hash": "a8755330abbfed3208185d2e4c787ab0",
+    "content-hash": "daadb9fe3ad78a92af47b324eb02638a",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -513,6 +513,90 @@
                 "yii2"
             ],
             "time": "2016-08-30 13:16:04"
+        },
+        {
+            "name": "pheme/yii2-settings",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phemellc/yii2-settings.git",
+                "reference": "326c1a1264798f76dcb963e97d57a08e799d2885"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phemellc/yii2-settings/zipball/326c1a1264798f76dcb963e97d57a08e799d2885",
+                "reference": "326c1a1264798f76dcb963e97d57a08e799d2885",
+                "shasum": ""
+            },
+            "require": {
+                "pheme/yii2-toggle-column": "*",
+                "yiisoft/yii2": ">=2.0.6"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "pheme\\settings\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aris Karageorgos",
+                    "email": "aris@phe.me"
+                }
+            ],
+            "description": "Yii2 Database settings",
+            "keywords": [
+                "Settings",
+                "config",
+                "yii2"
+            ],
+            "time": "2016-07-29 15:36:22"
+        },
+        {
+            "name": "pheme/yii2-toggle-column",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phemellc/yii2-toggle-column.git",
+                "reference": "b3db78500103b3fd24b3ff67f9eaeb155ca5d74c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phemellc/yii2-toggle-column/zipball/b3db78500103b3fd24b3ff67f9eaeb155ca5d74c",
+                "reference": "b3db78500103b3fd24b3ff67f9eaeb155ca5d74c",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "\\pheme\\grid\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aris Karageorgos",
+                    "email": "aris@phe.me"
+                }
+            ],
+            "description": "Provides a toggle data column and action",
+            "keywords": [
+                "column",
+                "extension",
+                "toggle",
+                "yii2"
+            ],
+            "time": "2016-09-09 01:46:16"
         },
         {
             "name": "swiftmailer/swiftmailer",

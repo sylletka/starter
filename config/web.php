@@ -7,7 +7,7 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'language'   => 'en',
-    'sourceLanguage' => 'en_GB',
+    'sourceLanguage' => 'en',
     'components' => [
 	    'request' => require(__DIR__ . '/request.php'),
         'cache' => [
@@ -40,6 +40,9 @@ $config = [
                 ],
             ],
         ],  
+        'settings' => [
+            'class' => 'pheme\settings\components\Settings'
+        ],
     ],
     'modules' => [
         'user' => [
@@ -53,6 +56,10 @@ $config = [
         ],
         'menu' => [
             'class' => 'cornernote\menu\Module',
+        ],
+        'settings' => [
+            'class' => 'pheme\settings\Module',
+            'sourceLanguage' => 'en'
         ],
     ],
     'params' => $params,

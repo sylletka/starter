@@ -1,12 +1,12 @@
 {
     "name": "sylletka/starter",
-    "description": "Yii 2 Basic Project Template enhanced",
+    "description": "Yii 2 Basic Project Template - enhanced",
     "keywords": ["yii2", "framework", "basic", "project template"],
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/sylletka/starter/issues?state=open",
-        "wiki": "https://github.com/sylletka/starter/wiki",
+        "wiki": "https://github.com/sylletka/starter/wiki/",
         "source": "https://github.com/sylletka/starter"
     },
     "minimum-stability": "dev",
@@ -15,16 +15,8 @@
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "yiisoft/yii2-authclient": "*",
-        "yiisoft/yii2-jui": "*",
-        "yiisoft/yii2-imagine": "~2.0.0",
-        "sylletka/yii2-admin" : "dev-master",
-        "pheme/yii2-settings": "*",
-        "sweelix/yii2-plupload": "*",
-        "2amigos/yii2-ckeditor-widget" : "*",
-        "faryshta/yii2-clockpicker" : "dev-master",
-        "mtdowling/cron-expression" : "dev-master",
-        "nex/yii2-chosen": "dev-master"
+        "dektrium/yii2-user": "0.9.*@dev",
+        "dektrium/yii2-rbac": "1.0.0-alpha@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -53,7 +45,7 @@
                 }
             ],
             "generateCookieValidationKey": [
-                "config/web.php"
+                "config/request.php"
             ]
         },
         "asset-installer-paths": {

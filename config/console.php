@@ -1,7 +1,5 @@
 <?php
 
-Yii::setAlias('@tests', dirname(__DIR__) . '/tests/codeception');
-
 $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');
 
@@ -23,11 +21,10 @@ $config = [
             ],
         ],
         'db' => $db,
-        'authManager' => [
-            'class' => 'yii\rbac\DbManager'
-        ] 
     ],
-
+    'modules' => [
+        'rbac' => 'dektrium\rbac\RbacConsoleModule',
+    ],
     'params' => $params,
     /*
     'controllerMap' => [

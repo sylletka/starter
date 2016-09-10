@@ -1,15 +1,19 @@
 <?php
-use yii\helpers\Html;
+
 /* @var $this yii\web\View */
-$this->title = Yii::$app->name;
+
+$this->title = 'Starter';
 ?>
-<div class="site-index">
+<div class="site-index">    
 
-    <div class="jumbotron">
-        <h1><?= Html::encode($this->title) ?></h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+    <div class="body-content">
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Welcome!</h1>
+            </div>
+        </div>
+
     </div>
 </div>

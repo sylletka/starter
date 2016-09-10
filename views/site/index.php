@@ -2,18 +2,14 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Starter';
+$this->title = 'Home';
+
 ?>
-<div class="site-index">    
+<?php $settings = Yii::$app->settings; ?>
 
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Welcome!</h1>
-            </div>
-        </div>
-
-    </div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3"><?= $settings->get('Site.name') ?></h1>
+    <p class="lead"><?= $settings->get('Site.description') ?></p>
+  </div>
 </div>

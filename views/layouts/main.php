@@ -11,6 +11,7 @@ use app\assets\AppAsset;
 
 AppAsset::register($this);
 ?>
+<?php $settings = Yii::$app->settings; ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
@@ -18,7 +19,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title><?= Html::encode($settings->get('Site.name') . " | " . $this->title) ?></title>
     <?php $this->head() ?>
 </head>
 <body>
@@ -27,7 +28,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => $settings->get('Site.name'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -39,6 +40,7 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Users', 'url' => ['/user/admin/index'], 'visible' => Yii::$app->user->can('administer')],
+            ['label' => 'Settings', 'url' => ['/site/settings'], 'visible' => Yii::$app->user->can('administer')],
             Yii::$app->user->isGuest ?
                 ['label' => 'Sign in', 'url' => ['/user/security/login']] :
                 ['label' => 'Sign out (' . Yii::$app->user->identity->username . ')',

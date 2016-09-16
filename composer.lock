@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a8755330abbfed3208185d2e4c787ab0",
-    "content-hash": "daadb9fe3ad78a92af47b324eb02638a",
+    "hash": "3eac9b02014bea1942ada25d992243c5",
+    "content-hash": "97f0d087e6550d3907f18c2fe09a15f4",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -652,17 +652,57 @@
             "time": "2016-09-07 22:19:22"
         },
         {
+            "name": "sylletka/yii2-log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylletka/yii2-log.git",
+                "reference": "0643dceb059ae801a5f5d28249a6ad4843fda574"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylletka/yii2-log/zipball/0643dceb059ae801a5f5d28249a6ad4843fda574",
+                "reference": "0643dceb059ae801a5f5d28249a6ad4843fda574",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sylletka\\log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Samuele Saorin",
+                    "email": "sylletka@gmail.com"
+                }
+            ],
+            "description": "This extension provides pages to browse the logs stored in database",
+            "keywords": [
+                "log",
+                "yii2"
+            ],
+            "time": "2016-09-12 17:03:45"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "c3a27e1abd7673dc101030b8de5879a36cc78290"
+                "reference": "17f7fc4d4faa907c3f5eb0fda5b7fa672fef0fd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c3a27e1abd7673dc101030b8de5879a36cc78290",
-                "reference": "c3a27e1abd7673dc101030b8de5879a36cc78290",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/17f7fc4d4faa907c3f5eb0fda5b7fa672fef0fd3",
+                "reference": "17f7fc4d4faa907c3f5eb0fda5b7fa672fef0fd3",
                 "shasum": ""
             },
             "require": {
@@ -743,7 +783,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-09-10 12:43:56"
+            "time": "2016-09-12 15:23:29"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -1297,12 +1337,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "54b24af89a6a97b59938bc63bfb8eea109ea27c2"
+                "reference": "ccec426bfe420235bc5ceeefc7641e53204e1693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/54b24af89a6a97b59938bc63bfb8eea109ea27c2",
-                "reference": "54b24af89a6a97b59938bc63bfb8eea109ea27c2",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/ccec426bfe420235bc5ceeefc7641e53204e1693",
+                "reference": "ccec426bfe420235bc5ceeefc7641e53204e1693",
                 "shasum": ""
             },
             "require": {
@@ -1339,7 +1379,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-09-09 11:59:46"
+            "time": "2016-09-12 07:51:30"
         },
         {
             "name": "guzzlehttp/psr7",

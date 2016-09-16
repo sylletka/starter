@@ -21,7 +21,7 @@ $config = [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 [
-                    'class' => 'yii\log\FileTarget',
+                    'class' => 'yii\log\DbTarget',
                     'levels' => ['error', 'warning'],
                 ],
             ],
@@ -61,6 +61,10 @@ $config = [
             'class' => 'pheme\settings\Module',
             'sourceLanguage' => 'en'
         ],
+        'log' => [
+            'class' => 'sylletka\log\Module',
+        ],
+
     ],
     'params' => $params,
 ];
@@ -70,12 +74,15 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
+        'allowedIPs' => ['127.0.0.1', '192.168.0.*', '192.168.1.*']
     ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
+        'allowedIPs' => ['127.0.0.1', '192.168.0.*', '192.168.1.*']
     ];
 }
 
 return $config;
+

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3eac9b02014bea1942ada25d992243c5",
+    "hash": "05b15d659016baf8cd8bbaf735257d0b",
     "content-hash": "97f0d087e6550d3907f18c2fe09a15f4",
     "packages": [
         {
@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "04bfcaa26356cf86c6c4a2420eb95857a86e03ab"
+                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/04bfcaa26356cf86c6c4a2420eb95857a86e03ab",
-                "reference": "04bfcaa26356cf86c6c4a2420eb95857a86e03ab",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
+                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-06-20 21:09:53"
+            "time": "2016-09-14 20:40:20"
         },
         {
             "name": "dektrium/yii2-rbac",
@@ -657,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylletka/yii2-log.git",
-                "reference": "0643dceb059ae801a5f5d28249a6ad4843fda574"
+                "reference": "0edd3c2e45c16d9cd5d4e12c6a3d21e39fe8d059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylletka/yii2-log/zipball/0643dceb059ae801a5f5d28249a6ad4843fda574",
-                "reference": "0643dceb059ae801a5f5d28249a6ad4843fda574",
+                "url": "https://api.github.com/repos/sylletka/yii2-log/zipball/0edd3c2e45c16d9cd5d4e12c6a3d21e39fe8d059",
+                "reference": "0edd3c2e45c16d9cd5d4e12c6a3d21e39fe8d059",
                 "shasum": ""
             },
             "require": {
@@ -689,7 +689,7 @@
                 "log",
                 "yii2"
             ],
-            "time": "2016-09-12 17:03:45"
+            "time": "2016-09-15 22:48:24"
         },
         {
             "name": "yiisoft/yii2",
@@ -697,12 +697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "17f7fc4d4faa907c3f5eb0fda5b7fa672fef0fd3"
+                "reference": "2d48e71d70bd89d6e3ceda2fa80488c918e94de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/17f7fc4d4faa907c3f5eb0fda5b7fa672fef0fd3",
-                "reference": "17f7fc4d4faa907c3f5eb0fda5b7fa672fef0fd3",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/2d48e71d70bd89d6e3ceda2fa80488c918e94de0",
+                "reference": "2d48e71d70bd89d6e3ceda2fa80488c918e94de0",
                 "shasum": ""
             },
             "require": {
@@ -783,7 +783,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-09-12 15:23:29"
+            "time": "2016-09-16 08:58:41"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -1337,12 +1337,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "ccec426bfe420235bc5ceeefc7641e53204e1693"
+                "reference": "4e81236d14da84c86f3e96561d689845bcf559ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/ccec426bfe420235bc5ceeefc7641e53204e1693",
-                "reference": "ccec426bfe420235bc5ceeefc7641e53204e1693",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/4e81236d14da84c86f3e96561d689845bcf559ef",
+                "reference": "4e81236d14da84c86f3e96561d689845bcf559ef",
                 "shasum": ""
             },
             "require": {
@@ -1379,7 +1379,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-09-12 07:51:30"
+            "time": "2016-09-13 12:22:34"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1448,16 +1448,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "da8529775f14f4fdae33f916eb0cf65f6afbddbc"
+                "reference": "94e5ca3e90aa5b34663780393e10914f7438f991"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/da8529775f14f4fdae33f916eb0cf65f6afbddbc",
-                "reference": "da8529775f14f4fdae33f916eb0cf65f6afbddbc",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/94e5ca3e90aa5b34663780393e10914f7438f991",
+                "reference": "94e5ca3e90aa5b34663780393e10914f7438f991",
                 "shasum": ""
             },
             "require": {
@@ -1486,7 +1486,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-09-06 16:07:05"
+            "time": "2016-09-07 15:34:10"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2166,6 +2166,53 @@
             "time": "2016-08-06 14:39:51"
         },
         {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d8e60a5619fff77f9669da8997697443ef1a1d7e",
+                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-01-06 21:40:42"
+        },
+        {
             "name": "sebastian/code-unit-reverse-lookup",
             "version": "dev-master",
             "source": {
@@ -2741,16 +2788,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d0d9bd5423a1be36d3338c15455184fed6de232d"
+                "reference": "c1ca699a28543ccd880713a412daa3d11b257e65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d0d9bd5423a1be36d3338c15455184fed6de232d",
-                "reference": "d0d9bd5423a1be36d3338c15455184fed6de232d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c1ca699a28543ccd880713a412daa3d11b257e65",
+                "reference": "c1ca699a28543ccd880713a412daa3d11b257e65",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9",
+                "symfony/debug": "~2.8|~3.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -2795,7 +2843,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-06 11:07:23"
+            "time": "2016-09-14 22:49:28"
         },
         {
             "name": "symfony/css-selector",
@@ -2849,6 +2897,63 @@
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
             "time": "2016-09-06 11:07:23"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "122391f69203b96b0c92b4a4b58c89ed9961c2ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/122391f69203b96b0c92b4a4b58c89ed9961c2ea",
+                "reference": "122391f69203b96b0c92b4a4b58c89ed9961c2ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-09-14 19:22:10"
         },
         {
             "name": "symfony/dom-crawler",
@@ -2972,12 +3077,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "ad1b54ed6b5d43255a34aab009a25fd368e0f417"
+                "reference": "5142fb011981ddb63ea263dee1abdc9d2906fb43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/ad1b54ed6b5d43255a34aab009a25fd368e0f417",
-                "reference": "ad1b54ed6b5d43255a34aab009a25fd368e0f417",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5142fb011981ddb63ea263dee1abdc9d2906fb43",
+                "reference": "5142fb011981ddb63ea263dee1abdc9d2906fb43",
                 "shasum": ""
             },
             "require": {
@@ -3013,7 +3118,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-08-26 12:08:28"
+            "time": "2016-09-14 22:49:28"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3080,12 +3185,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "aa8be2235b5dd4e472424552390609f61996f5ab"
+                "reference": "46b44cb89d05e691f2719d468fd476d57487b487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/aa8be2235b5dd4e472424552390609f61996f5ab",
-                "reference": "aa8be2235b5dd4e472424552390609f61996f5ab",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/46b44cb89d05e691f2719d468fd476d57487b487",
+                "reference": "46b44cb89d05e691f2719d468fd476d57487b487",
                 "shasum": ""
             },
             "require": {
@@ -3127,7 +3232,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-02 02:14:06"
+            "time": "2016-09-14 23:17:14"
         },
         {
             "name": "webmozart/assert",
